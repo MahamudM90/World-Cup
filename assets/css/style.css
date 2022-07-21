@@ -1,0 +1,607 @@
+/*  Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: white;
+    margin: 0px;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Global Styles */
+a:-webkit-any-link { 
+    text-decoration: none;
+    color: #161616;
+}
+
+/*
+  Styles for Hero Section 
+*/
+
+.container{
+    width: 1240px;
+    height: 646px;
+    margin-top: 2%;
+}
+
+.hero-section {
+    background-color: #1E1E1E;
+    color: white;
+    border-radius: 30px;
+    border: none;
+}
+
+.h-parent-div {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.h-left-div{
+    width: 531px;
+    height: 424px;
+    margin-top: 70px;
+    margin-left: 70px;
+}
+
+.h-title {
+    font-size: 70px;
+    line-height: 80px;
+    font-weight: 700;
+    margin-bottom: 0px;
+}
+
+.h-left-div p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+.h-left-div button {
+    width: 187px;
+    height: 56px;
+    border-radius: 5px;
+    background-color: #DD0000;
+    color: white;
+    font-size: 20px;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.h-left-div button:hover {
+    background-color: white;
+    color: #161616;
+}
+
+.h-left-div > button+a {
+    text-decoration: none !important;
+}
+
+.r-arrow {
+    margin-left: 8px;
+}
+
+.h-right-div {
+    margin-right: 50px;
+    margin-left: 45px;
+}
+
+.h-right-div img {
+    width: 100%;
+}
+
+.h-img {
+    width: 581px;
+    height: 613px;
+    margin-top: 33px;
+}
+
+/*
+  Styles for Hero Section End  
+*/
+
+/*
+  Styles for Cards Body Section 
+*/
+.body-section {
+    margin-top: 6%;
+}
+
+/* Side Button Starts */
+
+.b-parent-div {
+    display: grid;
+    grid-template-columns: 0.2fr 0.8fr;
+}
+
+.b-left-div {
+    display: flex;
+    flex-direction: row;
+    width: 212px;
+    height: 212px;
+    background-color: #161616;
+    border-radius: 10px;
+    border: none;
+    align-items: center;
+    justify-content: center;
+}
+
+.b-sidebtn {
+    display: flex;
+    flex-direction: column;
+}
+
+.b-sidebtn .btn {
+    width: 180px;
+    height: 52px;
+    border-radius: 10px;
+    border: none;
+    font-size: 14px;
+    font-weight: 600;
+    margin-bottom: 4%;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: #DD0000;
+    color: white;
+}
+
+#active {
+    background-color: #DD0000;
+    color: white !important;
+}
+
+#active:hover {
+    background-color: orangered;
+    color: white !important;
+}
+
+/* Side Button Ends */
+
+.b-right-div {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 15px;
+    margin-left: 2%;
+}
+
+.cards {
+    width: 312px;
+    height: 362px;
+    border-radius: 10px;
+    border: 1px solid #E8E8E8;
+}
+
+.cards button {
+    margin-left: 4%;
+}
+
+.cards h3 {
+    margin-left: 4%;
+    margin-bottom: 0px;
+}
+
+.card-btn {
+    width: 80px;
+    height: 30px;
+    background-color: white;
+    border-radius: 5px;
+    color: black;
+    font-weight: bold;
+    border: 1px solid #1E1E1E;
+    margin-top: 4%;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.card-btn:hover {
+    background-color: #161616;
+    color: white;
+}
+
+.card-icon {
+    display: flex;
+    flex-direction: row;
+    gap: 25px;
+    color: gray;
+}
+
+.cards > div {
+    margin-left: 4%;
+}
+
+/* Specical Btn Start*/
+.special-div {
+    justify-content: center;
+    align-items: center;
+    margin-top: 5%; 
+    margin-left: 47%;
+}
+
+.special-btn {
+    width: 100px;
+    height: 40px;
+    background-color: #DD0000;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    font-size: 14px;
+    font-weight: bold;
+    cursor: pointer;
+    visibility: hidden;
+}
+/* Special Btn End */
+
+/*
+  Styles for Cards Body Section End  
+*/
+
+
+/*
+  Styles for Footer Section 
+*/
+
+.footer-section {
+    height: 340px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 620px;
+    justify-content: center;
+    align-items: center;
+    background-color: #1E1E1E;
+    color: white;
+}
+
+.footer {
+    margin-bottom: 1%;
+}
+
+.f-title {
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+
+.social-icons {
+    text-align: center;
+}
+
+.social-icons span {
+    margin: 1%;
+}
+
+.social-icons a {
+    color: white;
+    font-size: 30px;
+    margin-top: 0px;
+}
+
+hr {
+    width: 1150px;
+    margin-top: 30px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    opacity: 0.6;
+}
+
+.f-terms {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    cursor: pointer;
+}
+
+
+/*
+  Styles for Footer Section End  
+*/
+
+/*********
+  Responsive for Mobile Device Start
+******/
+
+@media screen and (max-width: 576px) {
+    body {
+        margin: 0%;
+        overflow-x: hidden;
+    }
+
+    .main {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    /* Hero Section Start */
+    .hero-section {
+        width: 335px;
+        height: 592px;
+        margin: 0px;
+        padding: 0px;
+        justify-content: center;
+        text-align: center;
+        margin-top: 5%;
+    }
+    .h-parent-div {
+        display: flex;
+        flex-direction: column; 
+        justify-content: center;
+        align-items: center;
+    }
+
+    .h-left-div {
+        width: 220px;
+        height: 229px;
+        margin-right: 55px;
+        
+    }
+
+    .h-title {
+        font-size: 22px;
+        line-height: 28px;
+    }
+
+    .h-left-div > p {
+        font-size: 10px;
+        line-height: 20px;
+    }
+
+    .h-left-div > button {
+        height: 40px;
+        width: 161px;
+    }
+
+    .h-img {
+        width: 236px;
+        height: 260px;
+    }
+
+
+    /* Hero Section End */
+
+    /* Body Card Section Start */
+    .b-parent-div {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .b-left-div {
+        background-color: white;
+    }
+
+    .b-right-div {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    /* Body Card Section End */
+
+    /* Footer Section End */
+
+    .footer-section {
+        margin-top: 3000px;
+        width: 100%;
+        height: auto;
+        margin-bottom: 0px;
+    }
+
+    .footer {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .f-terms {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .f-title {
+        font-size: 24px;
+        margin-top: 20%;
+    }
+
+    .social-icons {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 5px;
+    }
+
+    hr {
+        width: 335px;
+    }
+    /* Footer Section End */
+    
+}
+
+/*
+  Responsive for Mobile Device End
+*/
+
+/*
+  Responsive for Tablet Start
+*/
+
+@media screen and (min-width: 577px) and (max-width: 768px) {
+    body {
+        margin: 0%;
+        overflow-x: hidden;
+    }
+
+    main {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    /* Hero Section Start */
+    .hero-section {
+        width: 640px;
+        height: 386px;
+        margin-top: 2%;
+
+    }
+
+    .h-parent-div {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .h-left-div{
+        width: 281px;
+        height: 324px;
+        margin-top: 50px;
+        margin-left: 60px;
+    }
+
+    .h-title {
+        font-size: 30px;
+        line-height: 40px;
+        font-weight: 700;
+        margin-bottom: 0px;
+    }
+
+    .h-left-div p {
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 25px;
+    }
+
+    .h-left-div button {
+        width: 147px;
+        height: 36px;
+        border-radius: 5px;
+        background-color: #DD0000;
+        color: white;
+        font-size: 14px;
+        border: none;
+        cursor: pointer;
+        font-weight: bold;
+    }
+
+    .h-right-div {
+        margin-right: 30px;
+        margin-left: 15px;
+    }
+    
+    .h-right-div img {
+        width: 100%;
+    }
+    
+    .h-img {
+        width: 381px;
+        height: 363px;
+        margin-top: 23px;
+    }
+    /* Hero Section End */
+
+    /* Card Body Section Start */
+    .b-parent-div {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 0px;
+    }
+
+    .b-left-div {
+        background-color: white;
+        margin: 0px !important;
+    }
+
+    .b-sidebtn {
+        display: flex;
+        flex-direction: row;
+        gap: 10px;
+    }
+
+    .b-right-div {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    /* Specical Btn Start*/
+    .special-div {
+        justify-content: center;
+        align-items: center;
+        margin-top: 5%; 
+    }
+
+    .special-btn {
+        width: 100px;
+        height: 40px;
+        background-color: #DD0000;
+        border-radius: 5px;
+        border: none;
+        color: white;
+        font-size: 14px;
+        font-weight: bold;
+        cursor: pointer;
+        visibility: visible;
+    }
+
+    .special-btn:hover {
+        background-color: orangered;
+        color: white;
+    }
+    /* Special Btn End */
+
+    /* Card Body Section End */
+
+    /* Footer Section Start */
+    .footer-section {
+        margin-top: 1600px;
+        width: 100%;
+        height: auto;
+        margin-bottom: 0px;
+    }
+
+    .footer {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .f-terms {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    
+    .f-title {
+        font-size: 35px;
+        margin-top: 10%;
+    }
+
+    .social-icons {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 8px;
+    }
+
+    hr {
+        width: 535px;
+    }
+    /* Footer Section End */
+}
+
+/*
+  Responsive for Tablet End
+*/
