@@ -21,7 +21,7 @@ a:-webkit-any-link {
 }
 
 /*
-  Styles for Hero Section 
+  Style for Hero Section 
 */
 
 .container{
@@ -103,11 +103,11 @@ a:-webkit-any-link {
 }
 
 /*
-  Styles for Hero Section End  
+  Style for Hero Section End  
 */
 
 /*
-  Styles for Upcoming Match Section  
+  Style for Upcoming Match Section  
 */
 .body-section {
     margin-top: 6%;
@@ -222,12 +222,12 @@ a:-webkit-any-link {
 /* Special Btn End */
 
 /*
-  Styles for Upcoming Match Section End  
+  Style for Upcoming Match Section End  
 */
 
 
 /*
-  Styles for Footer Section Start  
+  Style for Footer Section Start  
 */
 
 .footer-section {
@@ -280,7 +280,7 @@ hr {
 
 
 /*
-  Styles for Footer Section End  
+  Style for Footer Section End  
 */
 
 
@@ -490,7 +490,7 @@ hr {
     }
     /* Hero Section End */
 
-    /* Card Body Section Start */
+    /* Card Body Section  */
     .b-parent-div {
         display: flex;
         flex-direction: column;
