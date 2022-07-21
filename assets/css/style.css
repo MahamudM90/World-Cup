@@ -103,11 +103,11 @@ a:-webkit-any-link {
 }
 
 /*
-  Styles for Hero Section End  
+  Style for Hero Section End  
 */
 
 /*
-  Styles for Cards Body Section 
+  Style for Cards Body Section 
 */
 .body-section {
     margin-top: 6%;
@@ -240,12 +240,12 @@ a:-webkit-any-link {
 /* Special Btn End */
 
 /*
-  Styles for Cards Body Section End  
+  Style for Cards Body Section End  
 */
 
 
 /*
-  Styles for Footer Section 
+  Style for Footer Section 
 */
 
 .footer-section {
@@ -299,12 +299,12 @@ hr {
 
 
 /*
-  Styles for Footer Section End  
+  Style for Footer Section End  
 */
 
-/*********
+/*
   Responsive for Mobile Device Start
-******/
+*/
 
 @media screen and (max-width: 576px) {
     body {
